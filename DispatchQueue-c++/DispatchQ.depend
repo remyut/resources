@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1593521816 source:/home/remy/C++_project/DispatchQ/main.cpp
+	<iostream>
+	<csignal>
+	"DispatchQueue.h"
+
+1593521413 source:/home/remy/C++_project/DispatchQ/DispatchQueue.cpp
+	"DispatchQueue.h"
+	<iostream>
+
+1593521332 /home/remy/C++_project/DispatchQ/DispatchQueue.h
+	<thread>
+	<functional>
+	<vector>
+	<cstdio>
+	<queue>
+	<mutex>
+	<string>
+	<condition_variable>
+
