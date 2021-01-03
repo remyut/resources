@@ -1,0 +1,16 @@
+The HDB.py calculate a matrix of points based on a reference location (4km radius) and discover the residence within the radius.
+The python logs are saved in a html file. and extracted in list.txt
+
+list.txt contains the postcode and their SVY21 coordinates.
+
+The support code for this is the onemap API. The python client has been modify to resquest in a better way the token from the server. The Post request was not well formated and result in a access denied all the time.
+
+then, the maps.py use folium to create an iteractive maps to display the discovered residences.
+
+Finally, the crawler/Scapper using scrapy is used to gather and extract data on these property, to know if they are on the sale market.
+
+ 
+
+
+
+
